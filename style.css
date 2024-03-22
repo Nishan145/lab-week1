@@ -1,3 +1,64 @@
-*{
+/* *{
     background-color:#df18ce5e ;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(63, 23, 100);
+  color: aliceblue;
+}
+/* css */
+.feature {
+  height: 100vh;
+  background-image: url("./assets/galaxy1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.about{
+    height: 100vh;
+  background-image: url("./assets/galaxy2.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  background: none;
+  bottom: 50px;
+  left: 50px;
+  text-decoration: none;
+}
+
+.title { 
+    a {
+      text-decoration: none;
+      }
+  }
+
+nav a {
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+footer {
+  background: rgb(0, 2, 2);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+h1 {
+  text-align: start;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  text-decoration: none;
+  font-size: large;
+  font-weight: 100px;
 }
