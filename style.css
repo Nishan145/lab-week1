@@ -21,7 +21,14 @@ body {
   background-image: url("./assets/galaxy2.jpg");
   background-size: cover;
   background-position: center;
-  position: relative;
+  position:relative;
+}
+
+.contact{  height: 100vh;
+  background-image: url("./assets/galaxy2.jpg");
+  background-size: cover;
+  background-position: center;
+  position:relative;
 }
 
 .title {
@@ -30,6 +37,26 @@ body {
   bottom: 50px;
   left: 50px;
   text-decoration: none;
+}
+
+.info {
+  position: absolute;
+  background: none;
+  bottom: 50px;
+  left: 50px;
+  text-decoration: none;
+}
+
+.info{
+  text-decoration:none;
+  font-size: large;
+  font-weight: 100px;
+}
+
+.info{
+  a {
+    text-decoration: none;
+  }
 }
 
 .title { 
