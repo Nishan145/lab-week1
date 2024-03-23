@@ -1,12 +1,23 @@
 /* *{
     background-color:#df18ce5e ;
 } */
+header {
+  position: fixed;
+  background-color: blue;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  z-index: 1;
+}
 
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(63, 23, 100);
+  background-color: rgb(153, 81, 219);
   color: aliceblue;
+  h2 {
+    margin: 0;
+  }
 }
 /* css */
 .feature {
@@ -16,19 +27,20 @@ body {
   background-position: center;
   position: relative;
 }
-.about{
-    height: 100vh;
+.about {
+  height: 100vh;
   background-image: url("./assets/galaxy2.jpg");
   background-size: cover;
   background-position: center;
-  position:relative;
+  position: relative;
 }
 
-.contact{  height: 100vh;
-  background-image: url("./assets/galaxy2.jpg");
+.contact {
+  height: 100vh;
+  background-image: url("./assets/galaxy3.jpg");
   background-size: cover;
   background-position: center;
-  position:relative;
+  position: relative;
 }
 
 .title {
@@ -37,6 +49,8 @@ body {
   bottom: 50px;
   left: 50px;
   text-decoration: none;
+  font-size: large;
+  font-weight: 100px;
 }
 
 .info {
@@ -47,28 +61,29 @@ body {
   text-decoration: none;
 }
 
-.info{
-  text-decoration:none;
+.info {
+  text-decoration: none;
   font-size: large;
   font-weight: 100px;
 }
 
-.info{
+.info {
   a {
     text-decoration: none;
   }
 }
 
-.title { 
-    a {
-      text-decoration: none;
-      }
+.title {
+  a {
+    text-decoration: none;
   }
+}
 
 nav a {
   text-decoration: none;
   font-size: large;
   font-weight: bold;
+  /* position: fixed; */
 }
 
 footer {
@@ -84,8 +99,10 @@ h1 {
   margin: 0;
 }
 
-.title {
-  text-decoration: none;
-  font-size: large;
-  font-weight: 100px;
+/* whats going to happen before hovering */
+.read-more {
+}
+/* after hover these actions will occur */
+.read-more:hover {
+  color: red;
 }
