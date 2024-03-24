@@ -102,6 +102,7 @@ h1 {
 /* whats going to happen before hovering */
 .read-more {
 }
+
 /* after hover these actions will occur */
 .read-more:hover {
   color: red;
